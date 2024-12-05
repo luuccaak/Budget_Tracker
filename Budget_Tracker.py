@@ -74,7 +74,7 @@ def view_summary(expenses, budget):
     print(f"Remaining Budget: {budget - total_spent:.2f} CHF")
     if total_spent > budget:
         print("Alert: You have exceeded your budget!")
-        show_image_on_budget_exceeded(r"C:\Users\rkauf\OneDrive\Desktop\Luca\CS\CS-Group-Project\download.jpg")
+        show_image_on_budget_exceeded("download.jpg")
     elif total_spent > 0.9 * budget:
         print("Warning: You are about to exceed your budget!")
 

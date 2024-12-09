@@ -5,6 +5,7 @@ from PIL import Image
 import requests
 
 # API Key for the currency conversion (source: FreeCurrencyAPI, https://freecurrencyapi.com/)
+# For the API part we used resources from HSG course Computer Science as well as ChatGPT
 API_KEY = "fca_live_mUgr0iesdfU3EbKI0GF8T4tnfARgaqJuPTVYlrk5"
 
 # This function serves as the entry point to the program and displays the landing page.
@@ -61,8 +62,7 @@ def get_user_choice():
         return 0
 
 # Option 1: Adds a new expense to the user's tracker.
-# Prompts the user for a category and an amount, ensures the amount is positive,
-# and updates the expenses dictionary.
+# Prompts the user for a category and an amount, ensures the amount is positive and updates the expenses dictionary.
 def add_expense(expenses):
     try:
         category = input("Enter expense category (e.g., Food, Rent): ").strip()
@@ -95,6 +95,7 @@ def view_summary(expenses, budget):
         print("Warning: You are about to exceed your budget!")
 
 # Displays an image as a warning if the budget is exceeded.
+# For this part we used ChatGPT
 def show_image(image_path):
     """Display an image if the budget is exceeded."""
     from PIL import Image
@@ -167,5 +168,5 @@ def convert_currency(budget, expenses):
 # The main function is executed when the script is run directly.
 if __name__ == "__main__":
     main()
-# Used hlp from ChatGPT to structure the code as well as code comments.
+# Used help from ChatGPT to structure the code as well as code comments.
 # Additional information and detailed description is in the ReadMe file on GitHub.

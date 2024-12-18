@@ -51,7 +51,7 @@ Follow these steps to set up and run the Budget Tracker locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/budget-tracker.git
+   git clone https://github.com/luuccaak/budget-tracker.git
    cd budget-tracker
    ```
 

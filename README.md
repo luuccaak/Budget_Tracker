@@ -109,7 +109,7 @@ This project was developed as part of a learning exercise during the **HSG Intro
 ### Contributors
 - **luuccaak** - [GitHub](https://github.com/luuccaak)
 - **Ivcq** - [GitHub](https://github.com/Ivcq)
-- **Ivcq** - [GitHub](https://github.com/tobias-demaddalena)
+- **tobias-demaddalena** - [GitHub](https://github.com/tobias-demaddalena)
 
 ### API Provider
 - [FreeCurrencyAPI](https://freecurrencyapi.com/)

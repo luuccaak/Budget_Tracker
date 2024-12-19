@@ -95,10 +95,10 @@ Menu:
 4. Convert Remaining Budget to EUR
 5. Exit
 
-Your choice: 1
-Enter expense name: Rent
-Enter amount: 700
-Expense added successfully!
+Enter your choice (1-5): 1
+Enter expense category (e.g., Food, Rent): Food
+Enter amount for Food in CHF: 250
+Added 250.00 CHF to Food.
 ```
 
 ---

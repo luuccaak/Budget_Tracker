@@ -158,6 +158,7 @@ def convert_currency(budget, expenses):
                 print(f"Equivalent in EUR: {remaining_eur:.2f} EUR")
             else:
                 print("Error: Unable to fetch conversion rate.")
+        # This part was added by ChatGPT to handle request errors.
         else:
             # Handle errors if the API request fails.
             print(f"Error: Failed to connect to the API (status code: {response.status_code}).")
@@ -168,5 +169,5 @@ def convert_currency(budget, expenses):
 # The main function is executed when the script is run directly.
 if __name__ == "__main__":
     main()
-# Used help from ChatGPT to structure the code as well as code comments.
+# Used help from ChatGPT to structure the code, debugging as well as code comments.
 # Additional information and detailed description is in the ReadMe file on GitHub.
